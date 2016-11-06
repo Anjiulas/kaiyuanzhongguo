@@ -1,0 +1,10 @@
+/*初始化页面内外边距 */
+body, div, ul, li ,p,ol{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+/* 去除列表前的小圆点*/
+li{
+    list-style: none;
+}

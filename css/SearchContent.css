@@ -1,0 +1,85 @@
+/*顶部搜索*/
+.search{
+    width: 100%;
+    height: 80px;
+    background: #f5f5f5;
+    border: 1px solid #eee;
+}
+
+/*顶部搜索内容部分*/
+.search .search-content{
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*图片和文字*/
+.search .search-content .search-content-img{
+    width: 300px;
+    height: 48px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+/*图片*/
+.search .search-content .search-content-img .Kimg{
+    width: 160px;
+    height: 48px;
+    float: left;
+    background: url("../image/kaiyuan.PNG")no-repeat;
+}
+
+/*文字*/
+.search .search-content .search-content-img h1{
+    width: 106px;
+    height: 40px;
+    float: right;
+    margin-top: 2px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+/*搜索框与按钮*/
+.search .search-content .search-content-input{
+    width: 302px;
+    height: 32px;
+    position: relative;
+    position: absolute;
+    top: 24px;
+    right: 0px;
+}
+
+/*文本框*/
+.search .search-content .search-content-input .Itext{
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.search .search-content .search-content-input .Itext input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #40aa53;
+    outline: none;
+}
+.search .search-content .search-content-input .Ibutton {
+    width: 50px;
+    height: 34px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.search .search-content .search-content-input .Ibutton input{
+    width: 50px;
+    height: 34px;
+    border: none;
+    background: #40aa53;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
